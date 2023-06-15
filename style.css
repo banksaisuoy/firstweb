@@ -1,0 +1,161 @@
+.product {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.buy-button {
+    background-color: #4CAF50; /* กำหนดสีพื้นหลัง */
+    border: none; /* กำหนดไม่มีเส้นขอบ */
+    color: white; /* กำหนดสีตัวอักษร */
+    padding: 10px 20px; /* กำหนดพื้นที่แนวนอนและแนวตั้งรอบคอนเทนต์ */
+    text-align: center; /* กำหนดให้ข้อความอยู่ตรงกึ่งกลาง */
+    text-decoration: none; /* กำหนดไม่มีการอักษรีลิงค์ */
+    display: inline-block; /* กำหนดให้ปุ่มแสดงเป็นบล็อคอัตโนมัติ */
+    font-size: 16px; /* กำหนดขนาดตัวอักษร */
+    margin: 10px 2px; /* กำหนดระยะห่างของปุ่ม */
+    cursor: pointer; /* กำหนดลักษณะเม้าส์เป็นรูปแบบของปุ่ม */
+    border-radius: 5px; /* กำหนดรูปทรงของเส้นขอบ */
+  }
+
+  
+  .buy-button:hover {
+    background-color: #e2a731; /* กำหนดสีพื้นหลังเมื่อเม้าส์ไปอยู่บนปุ่ม */
+  }
+
+  .buy-button:active {
+    background-color: #e2a731; /* กำหนดสีพื้นหลังเมื่อคลิกปุ่ม */
+    box-shadow: 0 5px #666; /* กำหนดเงา */
+    transform: translateY(4px); /* กำหนดการเคลื่อนที่ของปุ่ม */
+  }
+
+  .buy-button:focus {
+    outline: none; /* กำหนดไม่มีเส้นขอบ */
+  }
+
+  .buy-button:disabled {
+    background-color: #cccccc; /* กำหนดสีพื้นหลัง */
+    cursor: not-allowed; /* กำหนดเม้าส์เป็นรูปแบบปกติ */
+  }
+
+   h1 {
+    font-size: 50px;
+    color: #f01141;
+  }
+  .navbar {
+    background-color: #333; /* กำหนดสีพื้นหลังของแถบนาวิเกตบาร์ */
+    overflow: hidden; /* ป้องกันเกินขนาด */
+  }
+  
+  .navbar a {
+    float: left; /* จัดเรียงภายในแถบนาวิเกตบาร์ไปด้านซ้าย */
+    color: white; /* กำหนดสีของตัวอักษร */
+    text-align: center; /* จัดเรียงตัวอักษรให้อยู่ตรงกลาง */
+    padding: 14px 16px; /* กำหนดระยะห่างของข้อความภายในแถบนาวิเกตบาร์ */
+    text-decoration: none; /* ลบเส้นใต้ของตัวอักษรในแถบนาวิเกตบาร์ */
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd; /* เมื่อผู้ใช้เอาเมาส์ชี้ไปที่ลิ้งค์ สีพื้นหลังจะเปลี่ยน */
+    color: black; /* เมื่อผู้ใช้เอาเมาส์ชี้ไปที่ลิ้งค์ สีข้อความจะเปลี่ยน */
+  }
+  
+
+
+  footer {
+    background-color: #968f8f;
+    color: #fff;
+    padding: 20px 0;
+  }
+    
+  .footer-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .search {
+    width: 75%;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.search input[type=text] {
+    width: 75%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search button {
+    padding: 8px;
+    margin-left: 8px;
+    background: #ddd;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background: #ccc;
+}
+
+nav {
+  background-color: #333;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+}
+
+.bg-image {
+  background-image: url('pic/626893.webp');
+  background-size: cover;
+  animation: slide 15s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
